@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+</head>
+<body>
+<script>
+    function ktraAcc(str) {
+        let kTra =/^[_a-z0-9]{6,}/;
+        let check = kTra.test(str);
+        if (check){
+            document.write("Tai khoan hop le!");
+        } else {
+            document.write("Tai khoan khong hop le");
+        }
+    };
+    let a = prompt("");
+    ktraAcc(a);
+
+
+</script>
+</body>
+</html>
